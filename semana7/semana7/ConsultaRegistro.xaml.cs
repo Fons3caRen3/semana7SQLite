@@ -45,7 +45,7 @@ namespace semana7
 
         private void BtnRegresar_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Login());
         }
     }
 }

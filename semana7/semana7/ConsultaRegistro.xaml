@@ -4,9 +4,7 @@
              x:Class="semana7.ConsultaRegistro" NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="LISTA DE USUARIOS" FontSize="24" HorizontalTextAlignment="Center" />
                 <ListView x:Name="ListaEstudiantes" ItemSelected="OnSelection">
                     <ListView.ItemTemplate>
                         <DataTemplate>
